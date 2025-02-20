@@ -1,0 +1,153 @@
+/* Main styling */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 20px;
+    width: 350px;
+    background-color: #f8f9fa;
+    color: #333;
+    font-size: 16px;
+  }
+  
+  .container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 1.8em;
+    color: #2c3e50;
+    margin: 0 0 20px 0;
+    text-align: center;
+  }
+  
+  /* Result area styling */
+  #result {
+    margin-top: 15px;
+    padding: 15px;
+    border: 1px solid #e9ecef;
+    border-radius: 6px;
+    min-height: 70px;
+    background-color: white;
+    transition: all 0.3s ease;
+    font-size: 1.1em;
+    line-height: 1.4;
+  }
+  
+  #result:hover {
+    border-color: #6c757d;
+  }
+  
+  /* Extract button styling */
+  #extractBtn {
+    margin-top: 15px;
+    width: 100%;
+    padding: 14px;
+    background-color: #1e1e1e;
+    color: #a78bfa;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+  
+  #extractBtn:hover {
+    background-color: #2d2d2d;
+  }
+  
+  #extractBtn:active {
+    transform: scale(0.98);
+  }
+  
+  .icon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-color: #a78bfa;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  }
+  
+  .status {
+    font-size: 1.1em;
+    color: #6c757d;
+    font-style: italic;
+  }
+  
+  #userInfo {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #e9ecef;
+    border-radius: 6px;
+    text-align: center;
+  }
+  
+  #loginBtn {
+    width: 100%;
+    padding: 12px;
+    background-color: #4285F4;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-bottom: 15px;
+    transition: background-color 0.2s ease;
+  }
+  
+  #loginBtn:hover {
+    background-color: #357ae8;
+  }
+  
+  #credentials {
+    margin-bottom: 15px;
+  }
+  
+  #credentials input, 
+  #credentials select {
+    width: 100%;
+    margin-bottom: 8px;
+    padding: 10px;
+    border: 1px solid #e9ecef;
+    border-radius: 6px;
+    font-size: 14px;
+  }
+  
+  #saveCredentialsBtn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.2s ease;
+  }
+  
+  #saveCredentialsBtn:hover {
+    background-color: #0056b3;
+  }
+  
+  #changeCredentialsBtn {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.2s ease;
+  }
+  
+  #changeCredentialsBtn:hover {
+    background-color: #218838;
+  }

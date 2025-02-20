@@ -1,0 +1,40 @@
+{
+    "manifest_version": 3,
+    "name": "LeetCode Code Extractor with UI",
+    "version": "1.0",
+    "description": "Extracts code from LeetCode's customized Monaco Editor when you click a button in the popup.",
+    "permissions": [
+      "scripting",
+      "storage",
+      "activeTab",
+      "tabs",
+      "identity"
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_title": "Extract Code"
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://leetcode.com/*"],
+        "js": ["content.js"],
+        "run_at": "document_idle"
+      }
+    ],
+    "oauth2": {
+      "client_id":"181301503720-6s85grpt9u6po3c2oguc1a1u6mqo4s3l.apps.googleusercontent.com",
+      "scopes": [
+        "https://www.googleapis.com/auth/userinfo.email"
+      ]
+    },
+    "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self'"
+    },
+    "web_accessible_resources": [
+      {
+        "resources": ["page.js"],
+        "matches": ["https://leetcode.com/*"]
+      }
+    ]
+  }
+  
