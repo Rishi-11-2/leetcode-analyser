@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # LeetCode Code Analyser
 
 A Chrome extension that extracts code from LeetCode's code editor and analyzes its time and space complexity using AI models.
@@ -93,7 +92,3 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## License
 
 [MIT](LICENSE)
-=======
-# leetcode-analyser
-## A leetcode extension that can tell you the time and space complexity of any code. In the backend,it makes API calls to the LLMs
->>>>>>> 5b52651579b6722d8d6ae461a9b37a2f736e5440
